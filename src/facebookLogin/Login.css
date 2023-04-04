@@ -1,0 +1,35 @@
+body{
+    background: whitesmoke;
+}
+
+.login__page{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    text-align: center;
+
+}
+
+.login__page img{
+    height: 100px;
+}
+
+.login__form{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 29px;
+    
+    background: white;
+    width: 57vw;
+    height: 77vh;
+    border: 1px solid grey;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(154, 111, 111, 0.2), 0 6px 20px 0 rgba(21, 18, 18, 0.19);
+}
+input{
+    padding: 22px;
+    
+}

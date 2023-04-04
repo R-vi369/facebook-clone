@@ -1,0 +1,118 @@
+.MessageSender{
+    display: flex;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 4px 2px 10px #ccc;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.message__top{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.message__top form{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    flex: 1;
+}
+.message__top form input{
+
+width: 100%;  
+background-color: transparent;
+border: 0;
+outline: 0;
+}
+
+.message__buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+}
+.messangerOption{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px ;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.messangerOption:hover{
+    background-color: whitesmoke;
+}
+
+
+.model__top{
+    top: 50%;
+    background: #fff;
+    margin: 0px auto;
+    width: 500px;
+    position: relative;
+    transform: translate-Y(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ .model__heading{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+
+.model__heading .MuiIconButton-root{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+ .model__top{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.model__top h5{
+    margin-left: 10px;
+}
+
+.model__body textarea{
+    width: 100%;
+   min-height: 100px;
+    border: 0px;
+    outline: 0;
+    font-size: 25px;
+    padding-top: 10px 0px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+/* .model__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.post__submit{
+    width: 100%;
+    background-color: #2391fa;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 0px;
+    outline: 0px;
+    font-size: 16px;
+    cursor: pointer;
+}    */
