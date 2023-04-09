@@ -5,9 +5,9 @@ import { Avatar, IconButton, Modal } from '@mui/material'
 import VideocamIcon from '@mui/icons-material/Videocam';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
-import CloseIcon from '@mui/icons-material/Close';
-import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
-import VideoCallIcon from '@mui/icons-material/VideoCall';
+// import CloseIcon from '@mui/icons-material/Close';
+// import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
+// import VideoCallIcon from '@mui/icons-material/VideoCall';
 
 const MessageSender = () => {
     const [open, setOpen] = useState(true)
@@ -20,7 +20,7 @@ const MessageSender = () => {
     }
     return (
         <>
-            <Modal open={open} onClose={HandleClose} >
+            {/* <Modal open={open} onClose={HandleClose} >
                 <div className='model__top'>
                     <form>
                         <div className='model__heading'>
@@ -60,7 +60,7 @@ const MessageSender = () => {
                     </form>
 
                 </div>
-            </Modal>
+            </Modal> */}
             <div className='MessageSender'>
                 <div className='message__top'>
                     <Avatar />
