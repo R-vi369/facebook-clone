@@ -1,0 +1,24 @@
+.sideBarRow {
+	display: flex;
+	padding: 0.4vw 1.7vw;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	p {
+		margin-left: 0.5rem;
+		font-weight: bold;
+		font-size: 1vw;
+	}
+	&:hover {
+		background-color: rgb(211 211 211/31%);
+		cursor: pointer;
+	}
+}
+.left__icons {
+	margin-top: 1vw;
+	flex: 0.33;
+	position: sticky;
+	top: 0;
+  @media (max-width: '786px') {
+    display: none;
+  }
+}

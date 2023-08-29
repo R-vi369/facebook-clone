@@ -1,5 +1,5 @@
 import React from 'react'
-import './feed.css';
+import './feed.scss';
 import StoryReel from './StoryReel';
 import MessageSender from './MessageSender';
 import Post from './Post';
