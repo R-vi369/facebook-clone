@@ -12,23 +12,23 @@
 
 .post__left{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .post__info{
-    margin-left: 1vw;
+    margin-left: 0.7vw;
 }
 
 .post__info p{
   display: flex;
-  font-size: 1.4vw;
+  font-size: 0.9vw;
   /* align-items: center; */
 
 
 }
 
 .post__info p svg{
-font-size: 2vw;
+font-size: 1vw;
 margin-left: 5px;
 
 }
@@ -53,6 +53,7 @@ margin-left: 5px;
     display: flex;
     align-items: center;
     cursor: pointer;
+    /* justify-content: center; */
     }
     .post__buttomOption p{
         margin-left: 5px;
